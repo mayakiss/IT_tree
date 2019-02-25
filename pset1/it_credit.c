@@ -3,7 +3,6 @@
 #include <cs50.h>
 
 int main(void){
-
 int sum=0;
 // input credit card
 long long cc;
