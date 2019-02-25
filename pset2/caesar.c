@@ -19,6 +19,7 @@ int k=atoi(argv[1]);
 p=get_string("plaintext: ");
 
 //ASCII to alphabetical
+//c=(((p[i]+ k)- ASCII VALUE)%26)+ ASCII VALUE;
 
 printf("cyphertext: ");
 for(int i=0; i<strlen(p); i++)
@@ -27,7 +28,6 @@ if(isalpha(p[i]))
 {
     if(islower(p[i]))
         {
-            //c=(((p[i]+ k)- 97)%26)+ 97;
             printf("%c",(((p[i]- 97)+ k)%26)+ 97);
         }
     if(isupper(p[i]))
@@ -41,5 +41,9 @@ else
         }
     printf("\n");
     }
+else
+{
+    printf("Retry\n");
     return 0;
+}
 }

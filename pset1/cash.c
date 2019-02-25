@@ -15,7 +15,6 @@ int main(void)
     int h=5;
     int i=1;
     int n;
-
 do
     {
         n=get_int("Change: ");
@@ -23,59 +22,41 @@ do
 while (n<=5);
 
 int counter=0;
-
 while(n>=a)
     {
-        n=n-a;
-        counter++;
+        n=n-a;counter++;
     }
-
 while(n>=b)
     {
-        n=n-b;
-        counter++;
+        n=n-b;counter++;
     }
-
 while(n>=c)
     {
-        n=n-c;
-        counter++;
+        n=n-c;counter++;
     }
-
 while(n>=d)
     {
-        n=n-d;
-        counter++;
+        n=n-d;counter++;
     }
-
 while(n>=e)
     {
-        n=n-e;
-        counter++;
+        n=n-e;counter++;
     }
-
 while(n>=f)
     {
-        n=n-f;
-        counter++;
+        n=n-f;counter++;
     }
-
 while(n>=g)
     {
-        n=n-g;
-        counter++;
+        n=n-g;counter++;
     }
-
 while(n>=h)
     {
-        n=n-h;
-        counter++;
+        n=n-h;counter++;
     }
-
 while(n>=i)
     {
-        n=n-i;
-        counter++;
+        n=n-i;counter++;
     }
 printf("%i coins\n",counter);
 }
