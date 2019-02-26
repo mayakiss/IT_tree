@@ -5,15 +5,15 @@
 int main(void)
 
 {
-    int a=500;
-    int b=250;
-    int c=200;
-    int d=100;
-    int e=50;
-    int f=25;
-    int g=10;
-    int h=5;
-    int i=1;
+    int fiveh=500;
+    int twohf=250;
+    int twoh=200;
+    int oneh=100;
+    int fifty=50;
+    int twen=25;
+    int ten=10;
+    int five=5;
+    int one=1;
     int n;
 do
     {
@@ -22,41 +22,41 @@ do
 while (n<=5);
 
 int counter=0;
-while(n>=a)
+while(n>=fiveh)
     {
-        n=n-a;counter++;
+        n=n-fiveh;counter++;
     }
-while(n>=b)
+while(n>=twohf)
     {
-        n=n-b;counter++;
+        n=n-twohf;counter++;
     }
-while(n>=c)
+while(n>=twoh)
     {
-        n=n-c;counter++;
+        n=n-twoh;counter++;
     }
-while(n>=d)
+while(n>=oneh)
     {
-        n=n-d;counter++;
+        n=n-oneh;counter++;
     }
-while(n>=e)
+while(n>=fifty)
     {
-        n=n-e;counter++;
+        n=n-fifty;counter++;
     }
-while(n>=f)
+while(n>=twen)
     {
-        n=n-f;counter++;
+        n=n-twen;counter++;
     }
-while(n>=g)
+while(n>=ten)
     {
-        n=n-g;counter++;
+        n=n-ten;counter++;
     }
-while(n>=h)
+while(n>=five)
     {
-        n=n-h;counter++;
+        n=n-five;counter++;
     }
-while(n>=i)
+while(n>=one)
     {
-        n=n-i;counter++;
+        n=n-one;counter++;
     }
 printf("%i coins\n",counter);
 }
